@@ -1,0 +1,16 @@
+.background{
+    width: 390px;
+    height: 328px;
+    box-shadow: 2px 2px 12px 0 rgba(0,0,0,0.1);
+    display: none;
+}
+.top{
+    height: 45px;
+}
+.content{
+    height: 183px;
+}
+.product-image{
+    width: 78px;
+    height: 78px;
+}

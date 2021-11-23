@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="h-screen w-screen relative flex items-center justify-center">
+
+        <div id="banner" class="absolute top-0 right-0 mt-3 mr-3 background bg-white">
+            <div class="border-b border-gray-200 top w-full h-11 mt-4 flex justify-between">
+                <div>
+                    <span class="font-semibold text-lg ml-6">My Basket</span>
+                    <span class="ml-2 mt-1">2 items</span>
+                </div>
+                <i class="fas fa-times mt-2 mr-6"></i>
+            </div>
+            <div class="content border-b border-gray-200">
+            </div>
+            <div class="btns m-4 flex justify-around h-12">
+                <div class="text-center bg-gray-300 w-full mr-1 h-full">click</div>
+                <div class="text-center bg-gray-500 w-full ml-1 h-full">click</div>
+            </div>
+        </div>
+        <button onclick="showBanner()" id="btn"
+            class="focus:outline-none bg-gray-500 object-center flex align-center">show
+            banner</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
